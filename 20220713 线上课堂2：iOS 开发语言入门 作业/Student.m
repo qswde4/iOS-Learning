@@ -1,6 +1,6 @@
 //
 //  Student.m
-//  College Demo
+//  Student
 //
 //  Created by qswde4 on 2022/07/18.
 //
