@@ -52,6 +52,14 @@
     return [now timeIntervalSince1970] - [self.birthday timeIntervalSince1970];
 }
 
+- (BOOL)isOver18 {
+    if (self.age >= 18) {
+        return YES;
+    } else {
+        return NO;
+    }
+}
+
 - (void)book:(Orders *)newOrder {
     [self.preOrders addObject:newOrder];
 }
